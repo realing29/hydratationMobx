@@ -1,7 +1,15 @@
 {
-  "compilerOptions": {
-    "paths": {
-      "@/*": ["./src/*"]
-    }
-  }
+	"compilerOptions": {
+		"baseUrl": "src",
+		"paths": {
+			"store": ["store"],
+			"shared/*": ["shared/*"],
+			"entities/*": ["entities/*"],
+			"feature/*": ["feature/*"],
+			"layouts/*": ["layouts/*"],
+			"widgets/*": ["widgets/*"],
+			"assets/images/*": ["assets/images/*"],
+			"styles/*": ["styles/*"]
+		}
+	}
 }
